@@ -8,8 +8,14 @@
         <div class='container'>
             <div class='row'>
                 <div class='col-md-6'>
+                    {% if search_word == "" %}
+                    <h1> {{results}} </h1>
+                    {% elseif string_to_search == "" %}
+                    <h1> {{results}} </h1>
+                    {% else %}
                     <h2>Your Searh Word: "{{ search_word }}"</h2>
                     <h3>Your Search Word Appeard {{ results }} times!</h3>
+                    {% endif %}
                 </div>
             </div>
             <strong><a href='/'>Back to input form</a></strong>
