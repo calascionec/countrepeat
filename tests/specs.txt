@@ -1,0 +1,23 @@
+1.if an empty search word is given
+
+search_word: ""    string_to_search: "any string"   return: "No search word given."
+
+2.if an empty string to search is given
+
+search_word: "word"     string_to_search:""     return:"No string was given to search"
+
+3.count how many times "a" is in the simple string "a"
+
+search_word: "a"    string_to_search: "a"   return: 1
+
+4.search for a word in a string
+
+search_word: "word"     string_to_search:"Is word in this string?"  return:1
+
+5.count number of times word is in a sting
+
+search_word:"word"      string_to_search:"word word word and another word"  return:4
+
+6.make sure punctuation doesn't interfere with counting a word
+
+search_word: "word"     string_to_search:"what is a word?"  return:1
