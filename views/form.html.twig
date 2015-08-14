@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+	<title>Repeat Counter</title>
+</head>
+<body>
+	<div class='container'>
+		<h1> Repeat Counter </h1>
+		<form action='/results'>
+			<div class='form-group'>
+				<div class='row'>
+					<div class='col-md-8'>
+						<label for='search_word'> Enter a word to search for: </label>
+						<input id='search_word' name='search_word' class='form-control' type='text'>
+					</div>
+				</div>
+			</div>
+            <div class='form-group'>
+				<div class='row'>
+					<div class='col-md-8'>
+						<label for='string_to_search'> Enter a string to search through: </label>
+						<input id='string_to_search' name='string_to_search' class='form-control' type='text'>
+					</div>
+				</div>
+			</div>
+			<button type='submit' class='btn-success'>Submit</button>
+		</form>
+	</div>
+</body>
+</html>
