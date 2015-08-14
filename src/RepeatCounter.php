@@ -1,8 +1,8 @@
 <?php
 
-    class CountRepeats
+    class RepeatCounter
     {
-        function countWordRepeat($search_word, $string_to_search)
+        function countRepeats($search_word, $string_to_search)
         {
 
             //makes sure that the user gave input for both $search_word and $string_to_search
