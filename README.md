@@ -6,8 +6,8 @@ Will take a word and a string given by the user and return the number of times t
 
 ### Setup instructions
 1. Clone github directory
-2. Run 'composer install' from root directory (~/<directory name/)
-3. Start PHP server from ~/<root>/web/ with localhost:<port#>
+2. Run 'composer install' from root directory
+3. Start PHP server in web directory
 4. Open http://localhost:<port#> in a web browser
 
 ### Technologies Used
