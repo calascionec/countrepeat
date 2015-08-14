@@ -16,8 +16,12 @@ search_word: "word"     string_to_search:"Is word in this string?"  return:1
 
 5.count number of times word is in a sting
 
-search_word:"word"      string_to_search:"word word word and another word"  return:4
+search_word:"word"      string_to_search:"word word word and another word for this string."  return:4
 
 6.make sure punctuation doesn't interfere with counting a word
 
-search_word: "word"     string_to_search:"what is a word?"  return:1
+search_word: "word"     string_to_search:"word, word, and word!"  return:3
+
+7. count capitalized words
+
+search_word: "word"     string_to_search:"word, Word, and Word!"  return:3
